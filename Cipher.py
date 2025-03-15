@@ -35,8 +35,8 @@ def caesar_decode(message: str, shift: int) -> str:
     return caesar_encode(message, -shift)
 
 def main():
-    st.title("Caesar Cipher Messenger")
-    st.write("Welcome to the secret Caesar Cipher communication app! 🕵️‍♂️")
+    st.title("🐰 Cipher Messenger Cneter")
+    st.write("Welcome to the VKJ communication app! 🕵️‍♂️")
     
     # Input for shift number
     shift = st.number_input("Enter the shift number (keep it secret!):", value=3, step=1)
