@@ -36,7 +36,7 @@ def caesar_decode(message: str, shift: int) -> str:
 
 def main():
     st.title("🐰 Cipher Messenger Center")
-    st.write("Welcome to the ❤️ VKJ communication app! 🕵️‍♂️")
+    st.write("Welcome to the 🥷 communication app! 🕵️‍♂️")
     
     # Input for shift number
     shift = st.number_input("Enter the shift number (keep it secret!):", value=3, step=1)
@@ -54,12 +54,12 @@ def main():
                 st.success("Encoded Message:")
                 st.code(encoded_message)
             else:
-                st.error("Please enter a message to encode.")
+                st.error("Please enter 👩‍💻 a message to ✅ encode :")
     
     # Decoding tab
     with tab2:
         st.header("Decode a Message")
-        message_to_decode = st.text_area("Enter your message to decode:")
+        message_to_decode = st.text_area("Enter your message to 🌐 decode ⛳ :")
         if st.button("Decode", key="decode_button"):
             if message_to_decode:
                 decoded_message = caesar_decode(message_to_decode, shift)
@@ -69,7 +69,7 @@ def main():
                 st.error("Please enter a message to decode.")
     
     # Sidebar instructions
-    st.sidebar.header("How to Use")
+    st.sidebar.header("How to use Messenger App")
     st.sidebar.write("1. Agree on a shift number with your friend (e.g., 3).")
     st.sidebar.write("2. Use the 'Encode Message' tab to encode your message.")
     st.sidebar.write("3. Share the encoded message with your friend.")
