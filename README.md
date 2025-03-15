@@ -105,12 +105,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Enjoy sending secret messages with your friends! 🕵️‍♂️
 ```
-
----
-
-### How to Use the README
-1. Save the README content in a file named `README.md` in your project folder.
-2. Add screenshots of your app (optional) in a `screenshots` folder and link them in the README.
-3. Push your project to GitHub and enjoy sharing it with others!
-
-Let me know if you need further assistance! 😊
